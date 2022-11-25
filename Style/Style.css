@@ -1,0 +1,152 @@
+body {
+    background-color: #ADA8BE;
+    font-family: Tahoma;
+}
+*{
+  box-sizing: border-box;
+}
+h1 {
+    color: blue;
+}
+p {
+  color: red;
+}
+
+button{
+    background-color: lightgray;
+    padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+/* Browser Window */
+
+.window_container {
+  border: 3px solid #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.window_row{
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+/*Columns*/
+.window_column{
+  float:left; /*left*/
+}
+.window_right{
+  width: 10%; /* 10 */
+  
+}
+
+.window_left{
+  width: 15%;
+}
+.window_middle{
+  width: 75%;
+}
+
+/*Floats after columns */
+.window_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Three dots 
+May change later */
+.dot{
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  left: 50px;
+  bottom: 10px;
+  position: relative;
+}
+
+/*Style*/
+input[type = text]{
+  width:90%;
+  border-radius: 3px;
+  border:none;
+  background-color: white;
+  margin-top: -8px;
+  height: 25px;
+  color: #777;
+  padding: 5px;
+
+}
+
+/*
+bar
+May change later
+*/
+
+.window_bar{
+  
+  width: 15px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+  left:10px;
+  position:relative;
+}
+
+.window_content{
+  padding:10px;
+
+}
+
+/* About Section*/
+.AboutHeading{
+  font-size: 80px;
+  left: 150px;
+  position: relative;
+  bottom: 100px;
+}
+
+.h_top{
+  position:relative;
+  left:225px;
+  bottom:500px;
+}
+
+.left_image{
+  position: relative;
+}
+
+.AboutWords{
+  position: relative;
+  bottom: 500px;
+}
+
+/* Button Div Swap */
+
+.tab_button{
+    height: 30px;
+    width: 80px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    position: relative;
+    
+}
+
