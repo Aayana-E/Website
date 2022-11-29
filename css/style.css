@@ -30,7 +30,9 @@ table, th, td {
     border-collapse: collapse;
 }
 
-
+.ctext{
+  text-align: center;
+}
 
 /* Browser Window */
 
