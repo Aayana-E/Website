@@ -19,13 +19,16 @@ li {
 
 
 .window_container {
-  border: 3px solid #f1f1f1;
+ 
+  
+  background: linear-gradient(180deg,rgb(200, 173, 235) 0%, rgb(173, 144, 196) 55%, rgba(52, 2, 110, 1) 100%);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+
 }
 .window_row{
   padding: 10px;
-  background: #f1f1f1;
+  
   
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -83,7 +86,7 @@ May change later
   
   width: 15px;
   height: 3px;
-  background-color: #aaa;
+  background-color: #000000;
   margin: 3px 0;
   display: block;
   left:10px;
@@ -122,25 +125,7 @@ May change later
     
 }
 
-#github-projects {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 10px;
-}
 
-#github-projects li {
-  margin: 8px 0;
-}
-
-#github-projects a {
-  color: #0044cc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#github-projects a:hover {
-  text-decoration: underline;
-}
 
 .tab_button {
   background-color: #4caf50;
@@ -190,11 +175,6 @@ May change later
 }
 
 
-.project-box i {
-  font-size: 32px;
-  color: #333;
-  margin-bottom: 8px;
-}
 
 .project-box a {
   display: block;
@@ -235,7 +215,7 @@ May change later
 }
 
 .window_section {
-  background-color: #e8e8ee;
+  background-color: #ebe8e8;
   border: 2px solid #c0c0c0;
   border-radius: 6px;
   padding: 20px;
