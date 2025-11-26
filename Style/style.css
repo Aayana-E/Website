@@ -233,7 +233,23 @@ May change later
   margin-bottom: 20px;
   border-radius: 4px;
   font-size: 1.1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.section-bar a {
+  text-decoration: none;
+  color: #550f8f;
+}
+
+.section-bar a:hover {
+  text-decoration: underline;
+  color: #9329e4;
+
+}
+
 
 .dropdown-menu {
   position: absolute;
