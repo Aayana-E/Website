@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Aayana Evanson</title>
-    <link rel="stylesheet" href="Style/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aayana Evanson</title>
+  <link rel="stylesheet" href="Style/Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
+
 <body>
-        <div class="window_container">
-            <div class="window_row">
-                <div class="window_column window_right">
-                    <div style="float: window_right">
-                        <span class="window_bar"></span>
-                        <span class="window_bar"></span>
-                        <span class="window_bar"></span>
-                    </div>
-                </div>
-                <div class="window_column window_middle">
-                    <input type="text" value="http://www.aayanaevanson.com/About">
-                </div>
-                <div class="window_row">
-                    <div class="window_column window_right">
-                        <span class="dot" style="background: #5ac05a;"></span>
-                        <span class="dot" style="background: #FDD800;"></span>
-                        <span class="dot" style="background: #ED594A;"></span>
-                    </div>
-                    <div id="dropdownMenu" class="dropdown-menu hidden">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="projects.html">Projects</a>
-                    </div>
-                </div>
-            <div class="window_content">
-                <img src="Images/aayana_headshot.jpg" style="width:100px; height: 100px;"> </img>
-                <div class="AboutHeading">Aayana Evanson</div>
-            </div>
-            <hr>
-            <a href="https://react-projects.aayanaevanson.com/" >
-                <h3>React Projects</h3>
-            </a>
-
-            <div class="left_image"> 
-            </div>
-                <div class="h_top">Aayana Evanson</div>
-                <div>
-                <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1720745"><a href="https://annagobrr.itch.io/i-need-space">I Need Space by AnnaGoBrr, Leoxide, Killxu, Kai uyekawa, jdxl2013, YukiNoUmi, wewewe02</a></iframe>
-            </div>
+  <div class="window_container">
+    <div class="window_row">
+      <div class="window_column window_right">
+        <div style="float: window_right">
+          <span class="window_bar"></span>
+          <span class="window_bar"></span>
+          <span class="window_bar"></span>
         </div>
-    </body>
-    <script src="js/script.js"></script>
+      </div>
+      <div class="window_column window_middle">
+        <input type="text" value="http://www.aayanaevanson.com/About">
+      </div>
+      <div class="window_row">
+        <div class="window_column window_right">
+          <span class="dot" style="background: #5ac05a;"></span>
+          <span class="dot" style="background: #FDD800;"></span>
+          <span class="dot" style="background: #ED594A;"></span>
+        </div>
+      </div>
 
+      <div class="window_content">
+        <img src="Images/Aayana Headshot.jpg" alt="Aayana Headshot" style="width:100px; height: 100px;" />
+        <div class="AboutHeading">Aayana Evanson</div>
+        <hr>
+
+        <div class="h_top">Featured Projects</div>
+
+        <!-- Odyssey Esports Link -->
+        <!-- <div style="margin-top: 20px;">
+          <a href="https://odyssey-esports-five.vercel.app/" target="_blank">
+            <button class="tab_button">Odyssey Esports</button>
+          </a>
+        </div> -->
+
+        <!--  Project Grid -->
+        <div class="projects-grid">
+
+          <a href="https://odyssey-esports-five.vercel.app/" target="_blank" class="project-link">
+            <div class="project-box">
+              <div class="project-media">
+                <img src="Images/Project Previews/Odyssey.png" alt="Odyssey Esports Preview">
+              </div>
+              <h3>Odyssey Esports</h3>
+              <p>League team manager dashboard built with React + Firebase.</p>
+            </div>
+          </a> <!-- End of box-->
+
+          <a href="https://odyssey-esports-five.vercel.app/" target="_blank" class="project-link">
+            <div class="project-box">
+              <div class="project-media">
+                <img src="Images/Project Previews/Odyssey.png" alt="Odyssey Esports Preview">
+              </div>
+              <h3>Odyssey Esports</h3>
+              <p>League team manager dashboard built with React + Firebase.</p>
+            </div>
+          </a> <!-- End of box-->
+
+
+        </div><!-- End of projects -->
+      </div>
+
+      </div> <!-- End window_content -->
+    </div> <!-- End window_row -->
+  </div> <!-- End window_container -->
+</body>
 </html>
-
