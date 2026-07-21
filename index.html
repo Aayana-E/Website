@@ -1,165 +1,276 @@
-<!DOCTYPE html>
-<html> 
-<head>
-    <title> Aayana Evanson</title>
-    <link rel="stylesheet" href="Style/style.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of Aayana Evanson, a software engineer building full stack web applications and interactive game experiences."
+    />
+    <title>Aayana Evanson | Software Engineer</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body class="home-page">
+    <header class="site-header">
+      <div class="window-controls" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a class="brand" href="index.html">
+        aayanaevanson.com
+      </a>
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-</head>
-<body>
-
-
-  <div class="window_container">
-    <div class="window_row">
-       
-        <div class="browser_topbar">
-            <div class = "window_column window_right id="menuButton"">
-            <div style ="float: window_right">
-                <span class = "window_bar"></span>
-                <span class = "window_bar"></span>
-                <span class = "window_bar"></span>
-            </div>
-            </div>
-
-            <div class = "window_column window_middle">
-                <input type = "text" value="http://www.aayanaevanson.com">
-            </div>
-            <div class="window_row">
-            <div class ="window_column window_right">
-                <span class = "dot" style="background: #5ac05a;">                    </span>
-                <span class = "dot" style="background: #FDD800;">                    </span>
-                <span class = "dot" style="background: #ED594A;">                    </span>
-                
-            </div>
-            <div id="dropdownMenu" class="dropdown-menu hidden">
-                <a href="index.html">Home</a>
-                <a href="About.html">About</a>
-                <a href="Projects.html">Projects</a>
-            </div>
-            </div>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Software engineer · New York</p>
+          <h1 id="hero-title">
+            I build thoughtful web applications and interactive game
+            experiences.
+          </h1>
+          <p class="hero-text">I'm Aayana, a recent NYU computer science graduate who enjoys turning complex ideas into useful, engaging products, from full stack React dashboards to Unity games.</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">Explore my work</a>
+            <a
+              class="button secondary"
+              href="https://github.com/Aayana-E"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
-        
-
-        
-
-        
-
-        <div class = "window_content">
-
-
-            <img src="Images/Anna_Logo_Inivs.png" class="logo" >
-            <div class="window_section">
-            
-                
-                <h2>Hi, I'm Aayana </h2>
-                <p class="about-paragraph">
-                I'm a recent graduate student and aspiring software engineer passionate about building thoughtful, user centered applications. 
-            I love exploring both the creative and technical sides of software from crafting engaging web experiences to designing game mechanics. 
-            Whether it's prototyping a Unity game or developing a full stack React app.
-                </p>
-            </div>
-
-            <div class="window_section">
-                <div class="section-bar">Featured Projects</div>
-                <div class="projects-grid">
-                    <div class="project-box">
-                        <a href="https://odyssey-esports-five.vercel.app/" target="_blank">Odyssey Esports App</a>
-                        <p>A dashboard for managing League teams and stats using Firebase + Riot API.</p>
-                    </div>
-                    <div class="project-box">
-                        <a href="https://www.captainsconnections.com/" target="_blank">Captain's Connections Yacht Agents </a>
-                        <p>Developed the admin dashboard for a Caribbean marine services directory, using React and Firebase to manage businesses, categories, and publishing businesses.</p>
-                    </div>
-                    <div class="project-box">
-                        <a href="https://annagobrr.itch.io/i-need-space" target="_blank">I Need Space</a>
-                        <p>I Need Space is a space-themed 2D puzzle game where you navigate twin Geminis who move in unison with one another.</p>
-                    </div>
-                </div>
-
-            
-            </div>
-
-            <div class="window_section">
-                <div class="section-bar">
-                    <span>React Projects</span>
-                    <a href="https://react-projects.aayanaevanson.com/" target="_blank" rel="noopener noreferrer">React Projects</a>
-                </div>
-                <div class="projects-grid">
-                    <div class="project-box">
-                        <a href="https://www.captainsconnections.com/" target="_blank">Captain's Connections Yacht Agents </a>
-                        <p>Developed the admin dashboard for a Caribbean marine services directory, using React and Firebase to manage businesses, categories, and publishing businesses.</p>
-                    </div>
-                    <div class="project-box">
-                        <a href="https://odyssey-esports-five.vercel.app/" target="_blank">Odyssey Esports App</a>
-                        <p>A dashboard for managing League teams and stats using Firebase + Riot API.</p>
-                    </div>
-                </div>
-            </div>
-
-        
-            <div class="window_section">
-                <div class="section-bar">
-                    <span>Gaming Projects</span>
-                    <a href="https://annagobrr.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io Page</a>
-                </div>
-                <div class="projects-grid">
-                    <div class="project-box">
-                        <a href="https://crewmeleon.itch.io/crawmeleon" target="_blank">Crawmeleon</a>
-                        <p>Camouflage seamlessly before your friends' eyes before taking them by surprise!</p>
-                    </div>
-                    <div class="project-box">
-                        <a href="https://annagobrr.itch.io/i-need-space" target="_blank">I Need Space</a>
-                        <p>I Need Space is a space-themed 2D puzzle game where you navigate twin Geminis who move in unison with one another.</p>
-                    </div>
-                    <div class="project-box">
-                        <a href="https://annagobrr.itch.io/deaths-dividend" target="_blank">Death's Dividend</a>
-                        <p>Death's Dividend is a top-down roguelike endless fighter runner where death is never the end but an opportunity.  Every kill keeps you alive but every death changes who you are.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="window_section">
-                <div class="section-bar">Education</div>
-
-                <div class="education-item">
-                    <h3>Master of Science in Computer Science</h3>
-                    <p class="edu-school">New York University</p>
-                    <p>Graduated: December 2025</p>
-                </div>
-
-                <div class="education-item">
-                    <h3>Bachelor of Science in Computer Science</h3>
-                    <p class="edu-school">St. John's University</p>
-                    <p>Minor: Video Game Development</p>
-                    <p>Graduated: December 2022</p>
-                </div>
-
-                <div class="education-item">
-                    <h3>Associate of Science in Information Technology</h3>
-                    <p class="edu-school">Monroe College</p>
-                    <p>Graduated: December 2019</p>
-                </div>
-            </div>
-
+        <div class="hero-visual">
+          <img
+            src="Images/GradPic.jpg"
+            alt="Aayana Evanson in graduation attire"
+          />
+          <div class="status-card">
+            <span class="status-dot"></span>
+            Open to software engineering opportunities
+          </div>
         </div>
+      </section>
 
-        
-            
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">Projects with purpose</h2>
+          </div>
+          <a class="text-link" href="projects.html">View all projects</a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured no-image">
+            <div class="project-content">
+            <p class="project-type">Featured project · Client web application</p>
+              <h3>Captain's Connections</h3>
+            <p>Built the administration dashboard for a Caribbean marine services directory, giving staff a clear way to manage businesses, organize categories, and control publishing workflows.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>Admin UX</li>
+                <li>Content Management</li>
+              </ul>
+              <div class="project-details">
+                <p><strong>My role</strong><br /> Developed the administration dashboard and its core management workflows.
+                <p><strong>Engineering focus</strong><br /> Business data management, publishing controls, and a practical staff experience.
+              </div>
+              <a
+                class="project-button"
+                href="https://www.captainsconnections.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </article>
+          <article class="project-card odyssey-card">
+            <div class="project-content">
+              <p class="project-type">Full stack web application</p>
+              <h3>Odyssey Esports</h3>
+            <p>One dashboard for building League of Legends rosters, reviewing player statistics, and keeping team information organized.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>Riot API</li>
+              </ul>
+              <div class="odyssey-highlights">
+                <span>Live game data</span>
+                <span>Team management</span>
+              </div>
+              <a
+                class="project-button"
+                href="https://odyssey-esports-five.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">2D puzzle game</p>
+              <h3>I Need Space</h3>
+            <p>Designed a space themed puzzle game around two Gemini characters who move in unison, turning one input into a layered spatial challenge.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Game Design</li>
+              </ul>
+              <a
+                class="project-button"
+                href="https://annagobrr.itch.io/i-need-space"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-            
+      <section class="section current-section" id="current" aria-labelledby="current-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">In progress</p>
+            <h2 id="current-title">Currently working on</h2>
+          </div>
+        </div>
+        <div class="current-placeholder" aria-hidden="true"></div>
+      </section>
 
-    </div>
-            
+      <section
+        class="section split-section"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div>
+          <p class="eyebrow">Work experience</p>
+          <h2 id="experience-title">
+            Teaching, building, and solving practical problems
+          </h2>
+        <p class="section-intro">My experience combines technical mentorship, software development, and technology support.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-heading">
+              <div>
+                <p class="experience-company">The Coder School</p>
+                <h3>Code Coach</h3>
+              </div>
+              <p class="experience-date">January 2022 to Present</p>
+            </div>
+            <p>Teach Python, Java, C#, programming fundamentals, and game development through project based learning.</p>
+            <ul>
+              <li>Mentored more than 100 students across a wide range of ages and skill levels.</li>
+              <li>Guided students through coding projects, debugging, problem solving, and software engineering concepts.</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-heading">
+              <div>
+                <p class="experience-company">Antigua and Barbuda Transport Board</p>
+                <h3>Software Engineer Intern</h3>
+              </div>
+              <p class="experience-date">June 2018 to July 2018</p>
+            </div>
+            <p>Supported public transportation technology and data operations for students and vehicle owners.</p>
+            <ul>
+              <li>Designed and produced more than 3,000 student transportation cards.</li>
+              <li>Organized transportation and vehicle owner records using Excel and internal systems.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-    
+      <section class="section skills-section" aria-labelledby="skills-title">
+        <p class="eyebrow">Toolkit</p>
+        <h2 id="skills-title">Technologies I work with</h2>
+        <div class="skill-groups">
+          <div>
+            <h3>Languages</h3>
+            <p>JavaScript · TypeScript · Python · Java · C# · C++ · SQL</p>
+          </div>
+          <div>
+            <h3>Frontend</h3>
+            <p>React · HTML · CSS · Responsive Design</p>
+          </div>
+          <div>
+            <h3>Backend and cloud</h3>
+            <p>Node.js · Firebase · AWS · REST APIs</p>
+          </div>
+          <div>
+            <h3>Game development</h3>
+            <p>Unity · Unreal Engine · Pygame</p>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <p>Git · GitHub · VS Code · Visual Studio · Figma · Blender</p>
+          </div>
+          <div>
+            <h3>Foundations</h3>
+            <p>Object Oriented Programming · Data Structures · Algorithms</p>
+          </div>
+        </div>
+      </section>
 
-    </div> <!--End of Window-->
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Let's build something</p>
+        <h2 id="contact-title">
+          Looking for a software engineer with technical range and a creative
+          point of view?
+        </h2>
+      <p>I'm currently open to software engineering opportunities and collaborations.</p>
+        <div class="actions">
+          <a class="button light" href="mailto:aayanaevanson@gmail.com">
+            Email Me
+          </a>
+          <a
+            class="button light"
+            href="https://github.com/Aayana-E"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub
+          </a>
+          <a
+            class="button outline-light"
+            href="https://annagobrr.itch.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View itch.io
+          </a>
+        </div>
+      </section>
+    </main>
 
-
-        
-
-        <script src="js/script.js"></script>
-
-    </body>
-
-
+    <footer>
+      <p>© <span id="year"></span> Aayana Evanson</p>
+      <a href="#top">Back to top</a>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -1,125 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aayana Evanson</title>
-    <link rel="stylesheet" href="./Style/style.css">
-    <script src="js/javascript.js"></script>
-</head>
-
-<body>
-    <div class="window_container">
-        <div class="window_row">
-            <div class="window_column window_right">
-                <div style="float: window_right">
-                    <span class="window_bar"></span>
-                    <span class="window_bar"></span>
-                    <span class="window_bar"></span>
-                </div>
-            </div>
-            <div class="window_column window_middle">
-                <input type="text" value="http://www.aayanaevanson.com/about">
-            </div>
-            <div class="window_row">
-                <div class="window_column window_right">
-                    <span class="dot" style="background: #5ac05a;"></span>
-                    <span class="dot" style="background: #FDD800;"></span>
-                    <span class="dot" style="background: #ED594A;"></span>
-                </div>
-                <div id="dropdownMenu" class="dropdown-menu hidden">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="projects.html">Projects</a>
-                </div>
-            </div>
-
-            <div class="window_content">
-
-                <!-- About Header -->
-                <img src="Images/aayana_headshot.jpg" alt="Aayana Headshot" style="width:100px; height:100px; border-radius: 50%; object-fit: cover;">
-                <div class="AboutHeading">Aayana Evanson</div>
-                <h4>New York</h4>
-                <hr>
-                <p class="about-paragraph">
-                    Hi! I'm Aayana, a graduate student and aspiring software engineer with a strong love for game development and creative coding.
-                    I'm passionate about building interactive tools, immersive game experiences, and thoughtful, user-first applications.
-                    I believe in code as a form of expression, and I'm excited to turn ideas into playable, impactful digital realities.
-                </p>
-
-                <!-- Education -->
-                <div class="window_section">
-                    <div class="section-bar">Education</div>
-                    <div class="timeline_item">
-                        <!-- <span class="dot"></span> -->
-                        <div class="timeline_content">
-                            <h3>Graduate of Science</h3>
-                            <p>New York University</p>
-                            <p>Major: Computer Science</p>
-                            <span>Expected Graduation: December 2025</span>
-                        </div>
-                    </div>
-                    <div class="timeline_item">
-                        <!-- <span class="dot"></span> -->
-                        <div class="timeline_content">
-                            <h3>Bachelor's of Science</h3>
-                            <p>St. John's University</p>
-                            <p>Major: Computer Science</p>
-                            <p>Minor: Video Game Development</p>
-                            <span>Graduated: December 2022</span>
-                        </div>
-                    </div>
-                    <div class="timeline_item">
-                        <!-- <span class="dot"></span> -->
-                        <div class="timeline_content">
-                            <h3>Associates of Science</h3>
-                            <p>Monroe College</p>
-                            <p>Major: Information Technology</p>
-                            <span>Graduated: December 2019</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Skills -->
-                <div class="window_section">
-                    <div class="section-bar">Skills</div>
-                    <ul class="skills-list">
-                        <li><strong>Languages:</strong> Python, JavaScript, C#, C++, Java</li>
-                        <br>
-                        <li><strong>Web:</strong> HTML, CSS, React, Firebase</li>
-                        <br>
-                        <li><strong>Game Dev:</strong> Unity (2D/3D), C#, Unreal Engine, Godot (beginner)</li>
-                        <br>
-                        <li><strong>Tools:</strong> Git, Figma, Blender, Photoshop, Trello</li>
-                    </ul>
-                </div>
-
-                <!-- Currently Exploring -->
-                <div class="window_section">
-                    <div class="section-bar">Currently Exploring</div>
-                    <ul>
-                        <li> - Building a stat website for multiplayer games with React</li>
-                        <br>
-                        <li> - Learning GO and Django</li>
-                        <br>
-                        <li> - Practicing VFX techniques for character abilities in Unity</li>
-                    </ul>
-                </div>
-
-                <!-- Fun Facts -->
-                <!-- <div class="window_section">
-                    <div class="section-bar">Fun Facts</div>
-                    <ul>
-                        <li> Favorite Game Dev Jam: GMTK 2023</li>
-                        <li> Favorite Hackathon: Hack Princeton 2023</li>
-                        <li> Always designing with music in background</li>
-                        <li>✏️ Working on a 3D story game</li>
-                    </ul>
-                </div> -->
-
-            </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Learn about Aayana Evanson's education, skills, and approach to software engineering."
+    />
+    <title>About | Aayana Evanson</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="window-controls" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a class="brand" href="index.html">
+        aayanaevanson.com/about
+      </a>
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero about-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">About me</p>
+          <h1>Engineering with curiosity and creativity.</h1>
+          <p class="hero-text">I'm Aayana, a software engineer based in New York and a recent NYU computer science graduate. I enjoy building interactive tools, thoughtful web products, and playful digital experiences that make complicated ideas feel approachable.</p>
+          <p class="hero-text">My background spans full stack development and game design, giving me a practical engineering foundation and a strong eye for how people experience software.</p>
+          <div class="actions">
+            <a class="button primary" href="projects.html">See my projects</a>
+            <a
+              class="button secondary"
+              href="https://github.com/Aayana-E"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
-    </div> <!-- End of Window -->
+        <div class="hero-visual">
+          <img src="Images/GradPic.jpg" alt="Aayana Evanson in graduation attire" />
+          <div class="status-card">
+            <span class="status-dot"></span>
+            Based in New York
+          </div>
+        </div>
+      </section>
+      <section class="section split-section">
+        <div>
+          <p class="eyebrow">Education</p>
+          <h2>A foundation in computer science</h2>
+        </div>
+        <div class="strength-list">
+          <article>
+            <span>2025</span>
+            <div>
+              <h3>Master of Science, Computer Science</h3>
+              <p>New York University</p>
+            </div>
+          </article>
+          <article>
+            <span>2022</span>
+            <div>
+              <h3>Bachelor of Science, Computer Science</h3>
+              <p>St. John's University · Minor in Video Game Development</p>
+            </div>
+          </article>
+          <article>
+            <span>2019</span>
+            <div>
+              <h3>Associate of Science, Information Technology</h3>
+              <p>Monroe College</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section skills-section">
+        <p class="eyebrow">Currently growing</p>
+        <h2>Always learning, always making</h2>
+        <div class="skill-groups">
+          <div>
+            <h3>Web engineering</h3>
+            <p>Deepening my full stack practice through React, APIs, Firebase, Django, and Go.</p>
+          </div>
+          <div>
+            <h3>Game development</h3>
+            <p>Exploring Unity VFX, character abilities, and mechanics that create memorable player decisions.</p>
+          </div>
+          <div>
+            <h3>Creative tooling</h3>
+            <p>Using Figma, Blender, and visual prototyping to connect technical systems with strong experiences.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <p class="eyebrow">Next chapter</p>
+        <h2>Ready to contribute, learn, and build.</h2>
+      <p>I'm open to software engineering roles where I can solve meaningful problems with a collaborative team.</p>
+        <div class="actions">
+          <a class="button light" href="mailto:aayanaevanson@gmail.com">
+            Email Me
+          </a>
+          <a class="button outline-light" href="index.html#contact">
+            Connect with me
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© <span id="year"></span> Aayana Evanson</p>
+      <a href="index.html">Home</a>
+    </footer>
     <script src="js/script.js"></script>
-
-</body>
+  </body>
 </html>

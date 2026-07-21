@@ -1,77 +1,269 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Aayana Evanson</title>
-  <link rel="stylesheet" href="Style/Style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-</head>
-
-<body>
-  <div class="window_container">
-    <div class="window_row">
-      <div class="window_column window_right">
-        <div style="float: window_right">
-          <span class="window_bar"></span>
-          <span class="window_bar"></span>
-          <span class="window_bar"></span>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web and game development projects by software engineer Aayana Evanson."
+    />
+    <title>Projects | Aayana Evanson</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="window-controls" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a class="brand" href="index.html">
+        aayanaevanson.com/projects
+      </a>
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="about.html">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="section page-intro">
+        <p class="eyebrow">Selected work</p>
+        <h1>Things I've designed, engineered, and shipped.</h1>
+        <p class="hero-text">A collection of full stack products and game projects that reflect how I approach systems, interfaces, and user experience.</p>
+      </section>
+      <section class="section project-list-section">
+        <div class="project-grid">
+          <article class="project-card featured no-image">
+            <div class="project-content">
+              <p class="project-type">Featured project · Client web application</p>
+              <h2>Captain's Connections</h2>
+              <p>Developed the administration dashboard for a Caribbean marine services directory. The system gives staff a clear way to manage businesses, organize categories, and control publishing.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>Admin UX</li>
+                <li>Content Management</li>
+              </ul>
+              <div class="project-details">
+                <p><strong>Contribution</strong><br /> Administration dashboard developmen
+                <p><strong>Core challenge</strong><br /> Making complex business and publishing workflows easy for staff to manage
+              </div>
+              <a
+                class="project-button"
+                href="https://www.captainsconnections.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Projec
+              </a>
+            </div>
+          </article>
+          <article class="project-card odyssey-card">
+            <div class="project-content">
+              <p class="project-type">Full stack web application</p>
+              <h2>Odyssey Esports</h2>
+              <p>One dashboard for building League of Legends rosters, reviewing player statistics, and keeping team information organized.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>Riot API</li>
+              </ul>
+              <div class="odyssey-highlights">
+                <span>Live game data</span>
+                <span>Team management</span>
+              </div>
+              <a
+                class="project-button"
+                href="https://odyssey-esports-five.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Projec
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Social media application</p>
+              <h2>HootFeed</h2>
+              <p>A social platform where users can create, share, and discover content through personalized interest based feeds and secure accounts.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>AWS</li>
+                <li>Authentication</li>
+              </ul>
+              <div class="project-features">
+                <span>Personalized feeds</span>
+                <span>Secure user accounts</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Community trading platform</p>
+              <h2>Barter</h2>
+              <p>A platform for exchanging items and services with community members, supported by searchable listings and an interactive map for nearby trades.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Database</li>
+                <li>Interactive Maps</li>
+              </ul>
+              <div class="project-features">
+                <span>Listing management</span>
+                <span>Location discovery</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Collaboration platform</p>
+              <h2>Company Case</h2>
+              <p>A team workspace that combines group communication, remote video meetings, and scheduling tools in one collaborative experience.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Video Conferencing</li>
+                <li>Scheduling</li>
+              </ul>
+              <div class="project-features">
+                <span>Group workspaces</span>
+                <span>Meeting coordination</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Project management platform</p>
+              <h2>Tech Incubator</h2>
+              <p>A task marketplace where companies publish projects and students browse, select, and complete real project assignments.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>AWS</li>
+                <li>Workflow Design</li>
+              </ul>
+              <div class="project-features">
+                <span>Task marketplace</span>
+                <span>Company collaboration</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Document processing tool</p>
+              <h2>Resume Parser</h2>
+              <p>A web application that extracts and organizes résumé information, then helps users filter and sort candidate data.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>File Processing</li>
+              </ul>
+              <div class="project-features">
+                <span>Résumé uploads</span>
+                <span>Filtering and sorting</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Multiplayer game</p>
+              <h2>Crawmeleon</h2>
+              <p>A camouflage driven multiplayer game where players blend into their surroundings before surprising their friends.</p>
+              <ul class="tags">
+                <li>Game Development</li>
+                <li>Team Project</li>
+                <li>Gameplay</li>
+              </ul>
+              <a
+                class="project-button"
+                href="https://crewmeleon.itch.io/crawmeleon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Projec
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">2D puzzle game</p>
+              <h2>I Need Space</h2>
+              <p>A space themed puzzle game where twin Gemini characters move in unison, requiring players to solve two spatial problems at once.</p>
+              <ul class="tags">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Puzzle Design</li>
+              </ul>
+              <a
+                class="project-button"
+                href="https://annagobrr.itch.io/i-need-space"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Projec
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-type">Roguelike game</p>
+              <h2>Death's Dividend</h2>
+              <p>A top down endless fighter where every kill keeps the player alive, and every death changes who they become.</p>
+              <ul class="tags">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Systems Design</li>
+              </ul>
+              <a
+                class="project-button"
+                href="https://annagobrr.itch.io/deaths-dividend"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Projec
+              </a>
+            </div>
+          </article>
         </div>
-      </div>
-      <div class="window_column window_middle">
-        <input type="text" value="http://www.aayanaevanson.com/About">
-      </div>
-      <div class="window_row">
-        <div class="window_column window_right">
-          <span class="dot" style="background: #5ac05a;"></span>
-          <span class="dot" style="background: #FDD800;"></span>
-          <span class="dot" style="background: #ED594A;"></span>
-        </div>
-      </div>
-
-      <div class="window_content">
-        <img src="Images/Aayana Headshot.jpg" alt="Aayana Headshot" style="width:100px; height: 100px;" />
-        <div class="AboutHeading">Aayana Evanson</div>
-        <hr>
-
-        <div class="h_top">Featured Projects</div>
-
-        <!-- Odyssey Esports Link -->
-        <!-- <div style="margin-top: 20px;">
-          <a href="https://odyssey-esports-five.vercel.app/" target="_blank">
-            <button class="tab_button">Odyssey Esports</button>
+      </section>
+      <section class="contact">
+        <p class="eyebrow">More experiments</p>
+        <h2>See what I'm building next.</h2>
+        <div class="actions">
+          <a class="button light" href="mailto:aayanaevanson@gmail.com">
+            Email Me
           </a>
-        </div> -->
-
-        <!--  Project Grid -->
-        <div class="projects-grid">
-
-          <a href="https://odyssey-esports-five.vercel.app/" target="_blank" class="project-link">
-            <div class="project-box">
-              <div class="project-media">
-                <img src="Images/Project Previews/Odyssey.png" alt="Odyssey Esports Preview">
-              </div>
-              <h3>Odyssey Esports</h3>
-              <p>League team manager dashboard built with React + Firebase.</p>
-            </div>
-          </a> <!-- End of box-->
-
-          <a href="https://odyssey-esports-five.vercel.app/" target="_blank" class="project-link">
-            <div class="project-box">
-              <div class="project-media">
-                <img src="Images/Project Previews/Odyssey.png" alt="Odyssey Esports Preview">
-              </div>
-              <h3>Odyssey Esports</h3>
-              <p>League team manager dashboard built with React + Firebase.</p>
-            </div>
-          </a> <!-- End of box-->
-
-
-        </div><!-- End of projects -->
-      </div>
-
-      </div> <!-- End window_content -->
-    </div> <!-- End window_row -->
-  </div> <!-- End window_container -->
-</body>
+          <a
+            class="button light"
+            href="https://github.com/Aayana-E"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            class="button outline-light"
+            href="https://annagobrr.itch.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            itch.io
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© <span id="year"></span> Aayana Evanson</p>
+      <a href="index.html">Home</a>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
